@@ -1,0 +1,26 @@
+/*Rock Salt */
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Roboto:wght@300&family=Rock+Salt&display=swap");
+
+/*Itim*/
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Roboto:wght@300&family=Rock+Salt&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  h1 {
+    font-family: "Rock Salt", cursive;
+  }
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    font-family: "Itim", cursive;
+  }
+}
