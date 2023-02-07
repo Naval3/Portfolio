@@ -4,9 +4,9 @@ function Projects() {
   return (
     <div className="flex flex-grow bg-blue-300">
       <div className="m-2 space-y-2 grow md:px-20">
-        <p className="py-3 mt-2 text-3xl font-bold text-center">
+        <h1 className="py-3 mt-2 text-2xl font-bold text-center">
           Featured works
-        </p>
+        </h1>
 
         <div className="space-y-3">
           <div className="grid-cols-2 md:grid">

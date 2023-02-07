@@ -6,7 +6,7 @@ import { FaBlogger } from "react-icons/fa";
 function Header() {
   return (
     <div className="">
-      <div className="bg-[url('/src/bluebg.jpg')] bg-fixed h-screen flex flex-wrap justify-center items-center ">
+      <div className="bg-blue-300 bg-fixed h-screen flex flex-wrap justify-center items-center ">
         <img src={Img} alt="Naval's img" className="w-44 md:w-auto" />
         <div className="flex flex-col gap-10">
           <h1 className="text-4xl ">
@@ -35,7 +35,7 @@ function Header() {
             <a href="https://github.com/Naval3" target="_blank">
               <AiFillGithub className="text-4xl animate-bounce cursor-pointer" />
             </a>
-            <a href="https://navalkoranga.hashnode.dev/" target="_blank">
+            <a href="https://codinghustle.online/" target="_blank">
               <FaBlogger className="text-4xl animate-bounce cursor-pointer" />
             </a>
           </div>

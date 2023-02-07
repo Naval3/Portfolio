@@ -23,35 +23,35 @@ function NavBar() {
           <div className="hidden gap-5 text-xl justify-end md:flex">
             <Link
               to="/"
-              className="text-white cursor-pointer hover:text-blue-300"
+              className="text-white cursor-pointer hover:text-green-700"
             >
               <h2>HOME</h2>
             </Link>
 
             <Link
               to="/about"
-              className="text-white cursor-pointer hover:text-blue-300"
+              className="text-white cursor-pointer hover:text-green-700"
             >
               <h2>ABOUT</h2>
             </Link>
 
             <Link
               to="/skills"
-              className="text-white cursor-pointer hover:text-blue-300"
+              className="text-white cursor-pointer hover:text-green-700"
             >
               <h2>SKILLS</h2>
             </Link>
 
             <Link
               to="/projects"
-              className="text-white cursor-pointer hover:text-blue-300"
+              className="text-white cursor-pointer hover:text-green-700"
             >
               <h2>PROJECTS</h2>
             </Link>
 
             <Link
               to="/contact"
-              className="text-white cursor-pointer hover:text-blue-300"
+              className="text-white cursor-pointer hover:text-green-700"
             >
               <h2>CONTACT</h2>
             </Link>

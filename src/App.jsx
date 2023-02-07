@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./Header";
+import Home from "./Home";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 import Skills from "./Skills";
@@ -13,7 +13,7 @@ function App() {
     <div className="">
       <NavBar />
       <Routes>
-        <Route index element={<Header />} />
+        <Route index element={<Home />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
