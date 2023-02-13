@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // for Hamburger icon
-function MobileMenu() {
+function MobileMenu({ menuClose }) {
   return (
-    <div>
+    <div onClick={menuClose}>
       <div className="flex flex-col mb-1 md:hidden translate-y-0">
         <Link
           className="px-4 bg-blue-300 border-t hover:text-green-700 border-y-gray-500"
