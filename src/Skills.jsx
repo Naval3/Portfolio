@@ -59,7 +59,7 @@ function Skills() {
               <h2 className="text-center text-xl text-green-500">Tailwind</h2>
               <p className="text-center">
                 I have worked on a wide range of industry level projects using
-                Taildind.
+                Tailwind.
               </p>
             </div>
           </div>
