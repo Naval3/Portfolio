@@ -29,7 +29,7 @@ function Projects() {
                 <p className="text-gray-400">Dashboard</p>
               </div>
 
-              <p>
+              <p className="text-xl">
                 A simple Ecommerce website built with react and tailwind CSS.
                 JSON server used for the backend to store user data for
                 authentication, orders.Context API used for state management,
@@ -58,7 +58,7 @@ function Projects() {
                 <p className="text-gray-400">Dashboard</p>
               </div>
 
-              <p>
+              <p className="text-xl">
                 An interactive Todo project which stores two different arrays
                 for storing todo list and done list seperately. It takes value
                 in its input and push it into todo array with map to attact a
@@ -87,7 +87,7 @@ function Projects() {
                 <p className="text-gray-400">Dashboard</p>
               </div>
 
-              <p>
+              <p className="text-xl">
                 It's just a simple tic-tac-toe game.I built this game on
                 React.js with Tailwindcss.
               </p>
