@@ -72,7 +72,9 @@ function NavBar() {
           )}
         </div>
       </nav>
-      {menuOpen == true && <MobileMenu className="mb-1" />}
+      {menuOpen == true && (
+        <MobileMenu menuClose={handleMenuClose} className="mb-1" />
+      )}
     </div>
   );
 }
