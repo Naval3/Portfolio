@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="bg-blue-300">
+    <div className="bg-blue-300 min-h-screen">
       <div className=" px-5 py-10 flex justify-center items-center sm:flex-nowrap">
         <div className="bg-gray-900 flex flex-wrap py-6 rounded shadow-md">
           <div className="lg:w-1/2 px-6">
