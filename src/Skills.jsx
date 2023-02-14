@@ -5,10 +5,12 @@ import Css from "/src/Css.png";
 import Tailwind from "/src/Tailwind.png";
 import Reacticon from "/src/Reacticon.png";
 import Typescript from "/src/Typescript.png";
+import Mysql from "/src/Mysql.png";
+import Redux from "/src/Redux.png";
 
 function Skills() {
   return (
-    <div className="bg-blue-300 ">
+    <div className="bg-blue-300 min-h-screen ">
       <h1 className="text-3xl text-black pt-5 font-bold text-center">
         My Skills
       </h1>
@@ -70,8 +72,7 @@ function Skills() {
             <div className="font-xl p-3">
               <h2 className="text-center text-xl text-green-500">TypeScript</h2>
               <p className="text-center">
-                I have worked on a wide range of industry level projects using
-                TS.
+                I have worked on TypeScript and made some projects.
               </p>
             </div>
           </div>
@@ -85,6 +86,24 @@ function Skills() {
                 I have worked on a wide range of industry level projects using
                 React.
               </p>
+            </div>
+          </div>
+          {/*Mysql  Card*/}
+          <div className="bg-white w-72 border border-md rounded-md m-3">
+            <img src={Mysql} className="w-full border-md" />
+
+            <div className="font-xl p-3">
+              <h2 className="text-center text-xl text-green-500">MySQL</h2>
+              <p className="text-center">I have learned basics of MySQL.</p>
+            </div>
+          </div>
+          {/*Redux  Card*/}
+          <div className="bg-white w-72 border border-md rounded-md m-3">
+            <img src={Redux} className="w-full border-md" />
+
+            <div className="font-xl p-3">
+              <h2 className="text-center text-xl text-green-500">Redux</h2>
+              <p className="text-center">I have learned basics of it.</p>
             </div>
           </div>
         </div>

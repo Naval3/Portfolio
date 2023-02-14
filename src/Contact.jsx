@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="bg-blue-300">
+    <div className="bg-blue-300 min-h-screen">
       <div className=" px-5 py-10 flex justify-center items-center sm:flex-nowrap">
         <div className="bg-gray-900 flex flex-wrap py-6 rounded shadow-md">
           <div className="lg:w-1/2 px-6">
@@ -27,7 +27,12 @@ function Contact() {
             <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
               PHONE
             </h2>
-            <p className="leading-relaxed text-indigo-400">+918192983193</p>
+            <a
+              href="tel:+918192983193"
+              className="leading-relaxed text-indigo-400"
+            >
+              +918192983193
+            </a>
           </div>
         </div>
       </div>

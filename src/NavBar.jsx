@@ -17,7 +17,7 @@ function NavBar() {
   }
 
   return (
-    <div className="bg-[#242B2E] w-full h-20">
+    <div className="bg-[#242B2E] w-full h-20 sticky top-0">
       <nav className="flex flex-row justify-end h-full mr-5 items-center px-5 mx-auto">
         <div className="flex gap-4 md:gap-8">
           <div className="hidden gap-5 text-xl justify-end md:flex">

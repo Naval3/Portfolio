@@ -11,9 +11,7 @@ function Header() {
         <div className="flex flex-col gap-10">
           <h1 className="text-4xl ">
             Hi,I'm
-            <span className="text-[#178a20] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 font-medium">
-              Naval,
-            </span>
+            <span className="text-[#178a20] font-medium">Naval,</span>
             <br></br>Web Developer
           </h1>
 
