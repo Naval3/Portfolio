@@ -27,7 +27,12 @@ function Contact() {
             <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
               PHONE
             </h2>
-            <p className="leading-relaxed text-indigo-400">+918192983193</p>
+            <a
+              href="tel:+918192983193"
+              className="leading-relaxed text-indigo-400"
+            >
+              +918192983193
+            </a>
           </div>
         </div>
       </div>
