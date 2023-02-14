@@ -31,9 +31,9 @@ function Projects() {
 
               <p className="text-xl">
                 A simple Ecommerce website built with react and tailwind CSS.
-                JSON server used for the backend to store user data for
-                authentication, orders.Context API used for state management,
-                React Router used for navigation.
+                API's used for storing user data for authentication,
+                orders.Context API used for state management, React Router used
+                for navigation.
               </p>
             </div>
           </div>
@@ -88,7 +88,7 @@ function Projects() {
               </div>
 
               <p className="text-xl">
-                It's just a simple tic-tac-toe game.I built this game on
+                It's just a simple tic-tac-toe game.This game is built on
                 React.js with Tailwindcss.
               </p>
             </div>
