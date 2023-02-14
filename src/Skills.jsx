@@ -6,7 +6,7 @@ import Tailwind from "/src/Tailwind.png";
 import Reacticon from "/src/Reacticon.png";
 import Typescript from "/src/Typescript.png";
 import Mysql from "/src/Mysql.png";
-import Redux from "/src/Redux.png";
+import Reduximg from "/src/Reduximg.png";
 
 function Skills() {
   return (
@@ -99,7 +99,7 @@ function Skills() {
           </div>
           {/*Redux  Card*/}
           <div className="bg-white w-72 border border-md rounded-md m-3">
-            <img src={Redux} className="w-full border-md" />
+            <img src={Reduximg} className="w-full border-md" />
 
             <div className="font-xl p-3">
               <h2 className="text-center text-xl text-green-500">Redux</h2>
