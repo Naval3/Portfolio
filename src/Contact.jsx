@@ -10,8 +10,9 @@ function Contact() {
               ADDRESS
             </h2>
             <p className="mt-1 text-indigo-400">
-              97, Shantipuri No.2 <br />
-              Udham Singh Nagar <br /> Uttarakhnad, India 263148
+              C-263, New Ashok Nagar <br />
+              East Delhi <br /> Delhi, 110096 <br />
+              India
             </p>
           </div>
           <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
